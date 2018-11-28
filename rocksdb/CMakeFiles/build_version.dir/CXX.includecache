@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sups/Desktop/NBX/external/rocksdb/util/build_version.h
+
+/home/sups/Desktop/NBX/rocksdb/build_version.cc
+build_version.h
+/home/sups/Desktop/NBX/rocksdb/build_version.h
+
