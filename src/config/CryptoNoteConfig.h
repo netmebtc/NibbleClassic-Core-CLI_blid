@@ -22,7 +22,7 @@ const uint64_t DIFFICULTY_TARGET                             = 150; // seconds
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0xe;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 1682177;
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 24;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V3         = 3 * DIFFICULTY_TARGET;
@@ -32,7 +32,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(2100000000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(21000000000);
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 0;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
@@ -47,7 +47,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 20;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 /* Premine amount */
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(2100000000);
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(210000000);
 
 /* How to generate a premine:
 
@@ -255,7 +255,7 @@ const char     LATEST_VERSION_URL[]                          = "http://nibble-ni
 const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0xc4, 0x1c, 0x3a, 0x7b, 0xdf, 0x42, 0x58, 0x31, 0x66, 0xf8, 0x92, 0xb4, 0xc6, 0xb1, 0x44, 0xe8  }
+    {  0xc4, 0x1c, 0x3a, 0x6b, 0xdf, 0x42, 0x58, 0x31, 0x66, 0xe8, 0x92, 0xb4, 0xc6, 0xb1, 0x44, 0xe8  }
 };
 
 const char* const SEED_NODES[] = {
