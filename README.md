@@ -24,7 +24,7 @@ Ubuntu, using GCC
     export CC=gcc-8
     export CXX=g++-8
     git clone -b master --single-branch https://github.com/Sudosups/NBX-linux
-    cd NBX
+    cd NBX-linux
     mkdir build
     cd build
     cmake ..
