@@ -252,7 +252,7 @@ const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
 const char     LATEST_VERSION_URL[]                          = "http://nibble-nibble.com";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+const std::string LICENSE_URL                                = "https://github.com/NibbleClassic/NibbleClassic-Linux-CLI/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xc4, 0x1c, 0x3a, 0x6b, 0xdf, 0x42, 0x58, 0x31, 0x66, 0xe8, 0x92, 0xb4, 0xc6, 0xb1, 0x44, 0xe8  }
