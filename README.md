@@ -23,7 +23,7 @@ Ubuntu, using GCC
     sudo pip install cmake
     export CC=gcc-8
     export CXX=g++-8
-    git clone -b master --single-branch https://github.com/Sudosups/NBX-linux
+    git clone -b master --single-branch https://github.com/NibbleClassic/NibbleClassic-Linux-CLI
     cd NBX-linux
     mkdir build
     cd build
@@ -50,10 +50,6 @@ You need to modify the below command for your version of ubuntu
 
 Please visit nibble-nibble.com for details on:
 
-Installing Workstation
-
-Installing Ubuntu
-
 Github repository for NibbleClassic
 
 Discord channel
@@ -61,8 +57,6 @@ Discord channel
 How to run the daemon (Nibbled)
 
 How to use the wallet (NBXwallet)
-
-How to run the miner (Nibbler)
 
 Donation address
 
