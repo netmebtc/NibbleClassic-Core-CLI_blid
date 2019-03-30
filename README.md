@@ -46,19 +46,33 @@ You need to modify the below command for your version of ubuntu
 
     sudo add-apt-repository "deb https://apt.llvm.org/xenial/ llvm-toolchain-xenial 6.0 main"
 
+How To Compile for Windows
+
+Windows Prerequisites
+
+Install Visual Studio 2017 Community Edition
+When installing Visual Studio, it is required that you install Desktop development with C++
+Install the latest version of Boost - Currently Boost 1.68.
+
+Building
+
+From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
+cd <your_nibbleclassic_directory>
+mkdir build
+cd build
+set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%
+cmake -G "Visual Studio 15 2017 Win64" .. -DBOOST_ROOT=C:/local/boost_1_68_0
+
+If you have errors on this step about not being able to find the following static libraries, you may need to update your cmake. Open 'Visual Studio Installer' and click 'Update'.
+
+MSBuild NibbleClassic.sln /p:Configuration=Release /m
+
+The binaries will be in the src/Release folder when you are complete.
+
+cd src
+cd Release
+Nibbled.exe --version
 
 
-Please visit nibble-nibble.com for details on:
 
-Github repository for NibbleClassic
-
-Discord channel
-
-How to run the daemon (Nibbled)
-
-How to use the wallet (NBXwallet)
-
-Donation address
-
-Pool mining
 
